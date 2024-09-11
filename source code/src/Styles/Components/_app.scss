@@ -1,0 +1,158 @@
+.container {
+    @include flex(center, center, column, 15px);
+    color: white;
+    background-image: url(../../Photos/backgorundPhoto.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+
+    .header{
+        font-size: 50px;
+    }
+}
+
+
+
+// .tic-tac-toe-conteiner {
+
+//     .btn-square{
+//         width: 50px;
+//         height: 50px;
+//         border: 2px inset black;
+//         border-radius: 0;
+//         font-size: 35px;
+//         color: white;
+//         font-family: 'Cabin Sketch';
+//         background-color: transparent;
+//         cursor: pointer;
+//         pointer-events: none;
+//     }
+
+//     .btn-square-active{
+//         width: 50px;
+//         height: 50px;
+//         border: 2px inset white;
+//         border-radius: 0;
+//         font-size: 35px;
+//         color: white;
+//         font-family: 'Cabin Sketch';
+//         background-color: transparent;
+//         cursor: pointer;
+//     }
+
+//     .btns-tictactoe {
+//         display: flex;
+//         justify-content: space-around;
+//         align-items: center;
+//         flex-direction: column;
+//         width: 90%;
+//         height: 120px;
+//         background-color: transparent;
+
+//         .btn-quit{
+//             width: 80px;
+//             height: 20px;
+//             font-family: 'Cabin Sketch', sans-serif;
+//             font-size: 15px;
+//             color: white;
+//             background-color: transparent;
+//             border-radius: 5px;
+//             border: none;
+//             cursor: pointer;
+//             &:hover{
+//                 background-color: rgba(0,0,0,0.4);
+//             }
+//         }
+//         .next-round{
+//             width: 80px;
+//             height: 20px;
+//             border: none;
+//             border-radius: 5px;
+//             font-size: 15px;
+//             color: black;
+//             font-family: 'Cabin Sketch';
+//             background-color: transparent;
+//             pointer-events: none;
+//             cursor: none;
+//         }
+
+//         .next-round-active{
+//             width: 80px;
+//             height: 20px;
+//             border: none;
+//             border-radius: 5px;
+//             font-size: 15px;
+//             color: white;
+//             font-family: 'Cabin Sketch';
+//             background-color: transparent;
+//             pointer-events: auto;
+//             cursor: pointer;
+//             &:hover{
+//                 background-color: rgba(0,0,0,0.4);
+//             }
+//         }
+
+//         .start-finish{
+//             width: 80px;
+//             height: 20px;
+//             font-family: 'Cabin Sketch';
+//             border: none;
+//             border-radius: 5px;
+//             background-color: transparent;
+//             font-size: 15px;
+//             color: white;
+//             cursor: pointer;
+//             &:hover{
+//                 background-color: rgba(0,0,0,0.4);
+//             }
+//         }
+//     }
+
+//     .board{
+
+//         display: grid;
+//         grid-template-columns: 1fr 1fr 1fr;
+//         grid-template-rows: 1fr 1fr 1fr;
+
+
+//     }
+
+//     .game-info{
+//         width: 90%;
+//         height: 60px;
+//         display: flex;
+//         justify-content: space-between;
+//     }
+
+//     .x-score{
+//         width: 40px;
+//         height: 60px;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+//     }
+
+//     .game-status{
+//         width: 150px;
+//         height: 60px;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+//     }
+
+//     .o-score{
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+//         width: 40px;
+//         height: 60px;
+
+//     }
+
+
+// }
